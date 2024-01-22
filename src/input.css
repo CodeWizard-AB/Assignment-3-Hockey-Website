@@ -12,8 +12,18 @@
 	}
 }
 
+@layer components {
+	.carousel-btn {
+		@apply bg-black text-white hover:bg-black border-none;
+	}
+
+	.carousel-item img {
+		@apply max-h-[550px] object-cover;
+	}
+}
+
 @layer utilities {
 	.main_container {
-		@apply max-w-screen-xl m-auto lg:px-12;
+		@apply max-w-screen-xl m-auto lg:px-12 px-4;
 	}
 }
