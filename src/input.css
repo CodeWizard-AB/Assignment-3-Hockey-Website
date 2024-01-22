@@ -5,6 +5,7 @@
 @layer base {
 	html {
 		font-family: "Manrope", sans-serif;
+		color: #131318;
 	}
 
 	button {
@@ -18,7 +19,27 @@
 	}
 
 	.carousel-item img {
-		@apply max-h-[550px] object-cover;
+		@apply max-h-[550px] object-cover rounded-lg;
+	}
+
+	.section-title {
+		@apply text-center py-8 border-y-2 border-dotted;
+	}
+
+	.content-heading {
+		@apply text-4xl font-extrabold mb-6;
+	}
+
+	.content-summary {
+		@apply text-base font-medium max-w-screen-sm m-auto leading-normal;
+	}
+
+	.grid-two {
+		@apply grid grid-cols-1 md:grid-cols-2;
+	}
+
+	.flex-footer-row {
+		@apply flex flex-col gap-3 text-base;
 	}
 }
 

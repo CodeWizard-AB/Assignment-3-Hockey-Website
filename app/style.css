@@ -642,6 +642,7 @@ html {
 
 html {
   font-family: "Manrope", sans-serif;
+  color: #131318;
 }
 
 button {
@@ -1544,8 +1545,42 @@ button {
 
 .carousel-item img {
   max-height: 550px;
+  border-radius: 0.5rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.section-title {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-style: dotted;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.content-heading {
+  margin-bottom: 1.5rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 800;
+}
+
+.content-summary {
+  margin: auto;
+  max-width: 640px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.flex-footer-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .absolute {
@@ -1576,8 +1611,20 @@ button {
   margin-top: 0.75rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .hidden {
@@ -1605,12 +1652,20 @@ button {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.grid-cols-\[2fr_1fr_1fr_1fr\] {
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
 .justify-between {
   justify-content: space-between;
 }
 
 .gap-0 {
   gap: 0px;
+}
+
+.gap-20 {
+  gap: 5rem;
 }
 
 .space-x-5 > :not([hidden]) ~ :not([hidden]) {
@@ -1639,6 +1694,11 @@ button {
   background-color: rgb(255 66 64 / var(--tw-bg-opacity));
 }
 
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(19 19 24 / var(--tw-bg-opacity));
+}
+
 .p-0 {
   padding: 0px;
 }
@@ -1657,9 +1717,23 @@ button {
   padding-right: 1rem;
 }
 
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-base {
@@ -1683,6 +1757,22 @@ button {
 
 .font-medium {
   font-weight: 500;
+}
+
+.leading-loose {
+  line-height: 2;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.text-\[\#FFFFFF99\] {
+  color: #FFFFFF99;
 }
 
 .text-btn {
