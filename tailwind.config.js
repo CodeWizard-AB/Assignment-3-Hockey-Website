@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export const content = ["./*.{html,js}"];
 export const theme = {
-	extend: {},
+	extend: {
+		colors: {
+			btn: "#FF4240",
+		},
+	},
 };
 export const plugins = [require("daisyui")];

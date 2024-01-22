@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 	<head>
-		<meta charset="UTF-8" />  
+		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>HockeyHeaven</title>
 
@@ -18,8 +18,78 @@
 		<link rel="stylesheet" href="app/style.css" />
 	</head>
 	<body>
-		<header class="bg-red-300">
-      hello
-    </header>
+		<!-- * HEADER SECTION -->
+
+		<header>
+			<!-- * NAVIGATION SECTION -->
+
+			<div class="navbar main_container px-4 py-8">
+				<div class="navbar-start">
+					<div class="dropdown">
+						<figure tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+							<ion-icon
+								name="menu-outline"
+								size="large"
+								class="max-w-6"
+							></ion-icon>
+						</figure>
+						<ul
+							tabindex="0"
+							class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+						>
+							<li><a href="">Home</a></li>
+							<li><a href="">About</a></li>
+							<li><a href="">Pages</a></li>
+							<li><a href="">Blog</a></li>
+							<li><a href="">Contact</a></li>
+						</ul>
+					</div>
+					<a class="btn btn-ghost text-xl lg:text-4xl gap-0 hover:bg-white p-0"
+						>Hockey<span class="text-btn">Heaven</span>
+					</a>
+				</div>
+				<div class="navbar-center hidden lg:flex">
+					<ul class="menu menu-horizontal px-1 text-base font-medium space-x-5">
+						<li><a href="">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Pages</a></li>
+						<li><a href="">Blog</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+				</div>
+				<button class="navbar-end space-x-6">
+					<ion-icon
+						name="search-outline"
+						size="large"
+						class="max-w-6 hidden md:block"
+					></ion-icon>
+					<a
+						class="btn text-lg lg:text-xl bg-btn text-white font-bold hover:bg-btn"
+						>Get Ticket</a
+					>
+				</button>
+			</div>
+
+			<!-- * BANNER SECTION -->
+		</header>
+
+		<!-- * MAIN COMPONENTS -->
+
+		<main></main>
+
+		<!-- * FOOTER COMPONENTS -->
+
+		<footer></footer>
+
+		<!-- * ICON REFERENCE -->
+
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		></script>
 	</body>
 </html>
