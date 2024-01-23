@@ -49,7 +49,7 @@
 	}
 
 	.section-gap {
-		@apply pt-12 pb-24;
+		@apply pt-12 pb-12 md:pb-24;
 	}
 
 	.program-caption {
