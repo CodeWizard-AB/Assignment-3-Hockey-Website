@@ -131,7 +131,7 @@
 		<main>
 			<!-- * CLUB SECTION -->
 
-			<section>
+			<!-- <section>
 				<div class="main_container">
 					<div class="section-title">
 						<h2 class="content-heading">Professional Hockeys Club</h2>
@@ -142,9 +142,65 @@
 						</p>
 					</div>
 				</div>
-			</section>
+			</section> -->
 
 			<!-- * PROGRAM SECTION -->
+
+			<section>
+				<div class="main_container">
+					<div class="section-title">
+						<h2 class="content-heading">Program Sections</h2>
+						<p class="content-summary">
+							Dive into the rich tapestry of our hockey programs, where each
+							section unfolds a unique journey of skill enhancement, teamwork,
+							and a shared love for the game.
+						</p>
+					</div>
+					<div class="grid-two section-gap gap-6">
+						<figure class="relative program-overlay">
+							<img src="Images/2.png" alt="Junior Program" class="min-h-60" />
+							<figcaption class="program-caption">
+								<h3 class="program-heading">Junior Program</h3>
+								<p class="text-sm md:content-summary md:leading-relaxed">
+									Fueling young passion, our Junior Program nurtures budding
+									talents with a focus on skill development and the joy of
+									playing hockey.
+								</p>
+								<button class="btn program-btn">Register Now!</button>
+							</figcaption>
+						</figure>
+						<figure class="relative program-overlay">
+							<img src="Images/3.png" alt="Teenager Program" class="min-h-60" />
+							<figcaption class="program-caption">
+								<h3 class="program-heading">Teenager Program</h3>
+								<p class="text-sm md:content-summary md:leading-relaxed">
+									Elevate skills and teamwork in our Teenager Program, designed
+									for the next generation of players seeking advanced training
+									and personal growth on the ice.
+								</p>
+								<button class="btn program-btn">Register Now!</button>
+							</figcaption>
+						</figure>
+						<figure class="md:col-span-2 relative program-overlay">
+							<img
+								src="Images/4.png"
+								alt="Professional Program"
+								class="min-h-60"
+							/>
+							<figcaption class="program-caption">
+								<h3 class="program-heading">Professional Program</h3>
+								<p class="text-sm md:content-summary md:leading-relaxed">
+									At the pinnacle of excellence, our Professional Program offers
+									seasoned players advanced training and strategic refinement
+									for a career-defining experience.
+								</p>
+								<button class="btn program-btn">Register Now!</button>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+
 			<!-- * PRODUCT SECTION -->
 			<!-- * QNA SECTION -->
 			<!-- * CONTACT SECTION -->
@@ -154,16 +210,24 @@
 
 		<footer class="bg-primary">
 			<div
-				class="main_container grid grid-cols-[2fr_1fr_1fr_1fr] text-[#FFFFFF99] py-24 gap-20"
+				class="main_container text-center md:text-left grid grid-cols-2 md:grid-cols-[2fr_1fr_1fr_1fr] text-[#FFFFFF99] py-10 md:py-24 md:gap-20 gap-10"
 			>
-				<div>
+				<div class="col-span-2 md:col-span-1 justify-self-center">
 					<h3 class="content-heading text-2xl text-white">Get In Touch</h3>
-					<p class="content-summary mb-10 leading-loose tracking-wider">
+					<p class="content-summary mb-6 leading-loose tracking-wider">
 						Connect with us and stay in the loop - reach out and get in touch
 						for all things hockey!
 					</p>
-					<p>hockeys@support.com</p>
-					<p>(+62) 123-321-543</p>
+					<p
+						class="flex items-center gap-2 mb-2 md:justify-start justify-center"
+					>
+						<ion-icon name="call-outline" class="text-btn"></ion-icon>
+						hockeys@support.com
+					</p>
+					<p class="flex items-center gap-2 md:justify-start justify-center">
+						<ion-icon name="mail-outline" class="text-btn"></ion-icon> (+62)
+						123-321-543
+					</p>
 				</div>
 				<ul class="flex-footer-row">
 					<h3 class="content-heading text-white text-xl">Company</h3>
@@ -180,7 +244,9 @@
 					<li><a href="">Ticket Support</a></li>
 					<li><a href="">Contact Us</a></li>
 				</ul>
-				<ul class="flex-footer-row">
+				<ul
+					class="flex-footer-row col-span-2 md:col-span-1 justify-self-center"
+				>
 					<h3 class="content-heading text-white text-xl">Services</h3>
 					<li><a href="">Academy</a></li>
 					<li><a href="">Group Lesson</a></li>

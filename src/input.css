@@ -11,6 +11,12 @@
 	button {
 		cursor: pointer;
 	}
+
+	img {
+		width: 100%;
+		object-fit: cover;
+		border-radius: 1rem;
+	}
 }
 
 @layer components {
@@ -40,6 +46,26 @@
 
 	.flex-footer-row {
 		@apply flex flex-col gap-3 text-base;
+	}
+
+	.section-gap {
+		@apply pt-12 pb-24;
+	}
+
+	.program-caption {
+		@apply absolute md:bottom-12 md:translate-y-0 bottom-1/2 translate-y-1/2 left-10 max-w-[500px] z-20 text-white;
+	}
+
+	.program-overlay {
+		@apply after:bg-[#13131880] after:absolute after:top-0 after:w-full after:h-full after:z-10 after:rounded-2xl;
+	}
+
+	.program-btn {
+		@apply bg-btn border-none mt-4 hover:bg-btn font-semibold text-base md:text-xl text-white;
+	}
+
+	.program-heading {
+		@apply text-lg md:text-2xl mb-3 md:content-heading font-bold;
 	}
 }
 
