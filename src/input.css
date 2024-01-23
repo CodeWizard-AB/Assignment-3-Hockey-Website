@@ -67,6 +67,26 @@
 	.program-heading {
 		@apply text-lg md:text-2xl mb-3 md:content-heading font-bold;
 	}
+
+	.contact-logo {
+		@apply max-w-12 mb-5;
+	}
+
+	.contact-figure {
+		@apply p-8 rounded-xl;
+	}
+
+	.contact-detail {
+		@apply font-bold;
+	}
+
+	.contact-caption {
+		@apply font-semibold text-xl;
+	}
+
+	.contact-input {
+		@apply bg-[#13131808] p-5 rounded-xl outline-none mt-3 w-full placeholder:text-[#1313184D];
+	}
 }
 
 @layer utilities {
